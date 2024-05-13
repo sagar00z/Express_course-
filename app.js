@@ -60,6 +60,6 @@ app.delete('/courses/:name' , (req,res)=>{
 })
 
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3000  // Dynamic port
 
 app.listen(port, () => console.log(`port is running on ${port} `))
